@@ -1,10 +1,6 @@
-# Getting Started With Google Chrome Extensions (Hello World)
+# Running the Extension
 
-This example demonstrates how to create a simple "Hello World" Chrome Extension.
-For more details, visit the [official tutorial](https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world).
-
-## Running This Extension
-
-1. Clone this repository.
-2. Load this directory in Chrome as an [unpacked extension](https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/#load-unpacked).
-3. Click the extension icon in the Chrome toolbar, then select the "Hello Extensions" extension. A popup will appear displaying the text "Hello Extensions".
+1. Run a local webpage on http://localhost:8000
+2. Start the server by running python server.py in the console (ensure it is running on http://localhost:5000)
+3. Add the extension to Chrome
+4. Open the webpage on http://localhost:8000 to see the detections
